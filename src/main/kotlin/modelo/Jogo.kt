@@ -5,7 +5,7 @@ class Jogo(val titulo:String,
     var descricao:String? = null
 
     override fun toString(): String {
-        return "Meu modelo.Jogo: \n" +
+        return "Jogo: \n" +
                 "Título: $titulo \n" +
                 "Capa: $capa \n" +
                 "Descricao: $descricao"
